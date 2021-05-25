@@ -6,6 +6,6 @@ services:
       - ".env"
     volumes:
       - "./nginx/nginx.conf:/etc/nginx/templates/default.conf.template"
-      - "./html:/usr/src/app
+      - "./html:/usr/src/app"
     ports:
       - "$PORT:80"
